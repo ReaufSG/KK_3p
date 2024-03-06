@@ -1,3 +1,5 @@
+package lekcja2;
+
 import java.util.Scanner;
 public class MasaCiężar {
     public static void main(String[] args) {
