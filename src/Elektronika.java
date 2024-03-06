@@ -9,6 +9,7 @@ public class Elektronika {
         double marza = 0.4;
         System.out.println("Podaj cenę: ");
         int cena = scanner.nextInt();
+        scanner.nextLine();
         double zysk = cena * marza;
         System.out.println("Zysk:" + zysk);
     }

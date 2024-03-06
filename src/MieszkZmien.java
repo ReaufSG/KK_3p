@@ -9,19 +9,27 @@ public class MieszkZmien {
 
         System.out.println("Pokój 1: ");
         int pom1x = scanner.nextInt();
+        scanner.nextLine();
         int pom1y = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Pokój 2: ");
         int pom2x = scanner.nextInt();
+        scanner.nextLine();
         int pom2y = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Pokój 3: ");
         int pom3x = scanner.nextInt();
+        scanner.nextLine();
         int pom3y = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Pokój 4: ");
         int pom4x = scanner.nextInt();
+        scanner.nextLine();
         int pom4y = scanner.nextInt();
+        scanner.nextLine();
 
         int osoby = 4;
 

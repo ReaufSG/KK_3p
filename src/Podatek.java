@@ -8,6 +8,7 @@ public class Podatek {
         double podstan = 0.04;
         double podlok = 0.02;
         int cena = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Cena: " + cena + "\nPodatek stanowy: " + (podstan * cena) + "\nPodatek: " + (podlok * cena)
         + "\nSuma: " + (cena + (cena * podstan) + (cena * podlok)));
     }
