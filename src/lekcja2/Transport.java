@@ -1,3 +1,5 @@
+package lekcja2;
+
 import java.util.Scanner;
 
 public class Transport {
@@ -12,16 +14,16 @@ public class Transport {
         double dystans = 500;
 
         if (waga <= 1) {
-            double cena = 1.10 * (double) Math.ceil(kilometry/dystans);
+            double cena = 1.10 * Math.ceil(kilometry/dystans);
             System.out.println("Cena za przesyłkę wynosi: " + cena + " zł");
         } else if (waga <= 3) {
-            double cena = 2.20 * (double) Math.ceil(kilometry/dystans);
+            double cena = 2.20 * Math.ceil(kilometry/dystans);
             System.out.println("Cena za przesyłkę wynosi: " + cena + " zł");
         } else if (waga <= 5) {
-            double cena = 3.70 * (double) Math.ceil(kilometry/dystans);
+            double cena = 3.70 * Math.ceil(kilometry/dystans);
             System.out.println("Cena za przesyłkę wynosi: " + cena + " zł");
         } else {
-            double cena = 3.80 * (double) Math.ceil(kilometry/dystans);
+            double cena = 3.80 * Math.ceil(kilometry/dystans);
             System.out.println("Cena za przesyłkę wynosi: " + cena + " zł");
         }
     }
